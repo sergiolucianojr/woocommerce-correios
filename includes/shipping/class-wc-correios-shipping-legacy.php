@@ -161,6 +161,14 @@ class WC_Correios_Shipping_Legacy extends WC_Shipping_Method {
 				'desc_tip'         => true,
 				'default'          => 'no',
 			),
+			'service_pac_mini' => array(
+				'title'            => __( 'PAC MINI', 'woocommerce-correios' ),
+				'type'             => 'checkbox',
+				'label'            => __( 'Enable', 'woocommerce-correios' ),
+				'description'      => __( 'Shipping via PAC MINI.', 'woocommerce-correios' ),
+				'desc_tip'         => true,
+				'default'          => 'no',
+			),
 			'service_sedex' => array(
 				'title'            => __( 'SEDEX', 'woocommerce-correios' ),
 				'type'             => 'checkbox',
